@@ -1,0 +1,25 @@
+3 5 
+first_element_location:100
+length:5
+
+7 first_element_location num1
+1 first_element_location length num2
+2 num2 add1 num2
+
+
+cnd1:5 num1 num2 yes1
+9
+store:0
+num1:0
+num2:0
+
+yes1:7 num1 n1
+7 num1 n3
+7 num2 n2
+7 num2 n4
+7 n1:0 store
+7 n2:0 n3:0
+7 store n4:0
+add1:1 num1 add1 num1
+sub1:2 num2 add1 num2
+3 cnd1
