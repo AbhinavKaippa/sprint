@@ -1,0 +1,23 @@
+3 5 
+number:100
+result:1 
+
+7 number num
+0 0 result
+
+cnd1:5 num add1 halt
+7 num rem
+0 0 num
+
+cnd2:5 rem ten yes2
+sub1:2 rem ten rem
+add1:1 num add1 num
+3 cnd2
+
+yes2: add2:1 result rem result
+3 cnd1
+
+rem:0
+num:0
+halt:9
+ten:10
