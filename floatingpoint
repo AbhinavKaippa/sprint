@@ -1,0 +1,50 @@
+3 start
+num:22
+divident:7
+div:0
+div2:0
+rem2:0
+count:1
+count2:1
+space:0
+halt:9
+ten:10
+
+start:7 num rem2
+
+cnd0:5 rem2 divident cnd1
+sub0:2 rem2 divident rem2 
+add0:1 div add1 div
+3 cnd0
+
+
+
+cnd1:5 rem2 divident yes1
+sub1:2 rem2 divident rem2 
+add1:1 div2 add1 div2
+3 cnd1
+yes1:4 rem2 52 halt
+cnd2:4 count cnd1 halt
+
+0 0 space
+0 1 count2
+7 div2 space
+cnd3:4 count2 ten yes2
+1 div2 space div2
+1 count2 add1 count2
+3 cnd3
+
+
+yes2:0 0 space
+0 1 count2
+7 rem2 space
+cnd4:4 count2 ten yes3
+1 rem2 space rem2
+1 count2 add1 count2
+3 cnd4
+
+
+yes3:1 count add1 count
+3 cnd1 
+
+
