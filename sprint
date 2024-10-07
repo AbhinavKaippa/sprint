@@ -1,0 +1,176 @@
+0 first list 
+7 list instruction
+2 list one list  
+3 start01
+
+start01:cnd_for0:7 instruction check0 
+4 check0:0 zero yes00
+
+cnd_for1:7 instruction check1 
+4 check1:0 one yes01
+
+cnd_for2:7 instruction check2 
+4 check2:0 two yes02
+
+cnd_for3:7 instruction check3 
+4 check3:0 three yes03
+
+cnd_for4:7 instruction check4
+4 check4:0 four yes04
+
+cnd_for5:7 instruction check5
+4 check5:0 five yes05
+
+cnd_for7:7 instruction check7
+4 check7:0 seven yes07
+
+cnd_for9:7 instruction check9
+4 check9:0 nine yes09
+9
+
+
+
+
+yes00:1 instruction one instruction
+1 instruction one instruction2
+7 instruction ele0_1
+7 instruction2 ele0_2
+7 ele0_2:0 ele0_2/1
+1 ele0_2/1 list ele0_2/1
+7 ele0_1:0 ele0_2/1:0
+1 instruction two instruction
+3 start01
+
+
+
+yes01:1 instruction one instruction
+1 instruction one instruction2
+7 instruction ele1_1
+7 instruction2 ele1_2
+1 instruction2 one instruction2
+7 instruction2 ele1_3
+7 ele1_1:0 ele1_1/1 
+7 ele1_2:0 ele1_2/1 
+7 ele1_3:0 ele1_3/1 
+1 ele1_1/1 list ele1_1/1
+1 ele1_2/1 list ele1_2/1
+1 ele1_3/1 list ele1_3/1
+1 ele1_1/1:0 ele1_2/1:0 ele1_3/1:0
+1 instruction three instruction
+3 start01
+
+
+
+yes02:1 instruction one instruction
+1 instruction one instruction2
+7 instruction ele2_1
+7 instruction2 ele2_2
+1 instruction2 one instruction2
+7 instruction2 ele2_3
+7 ele2_1:0 ele2_1/1 
+7 ele2_2:0 ele2_2/1 
+7 ele2_3:0 ele2_3/1 
+1 ele2_1/1 list ele2_1/1
+1 ele2_2/1 list ele2_2/1
+1 ele2_3/1 list ele2_3/1
+2 ele2_1/1:0 ele2_2/1:0 ele2_3/1:0
+1 instruction three instruction
+3 start01
+
+
+
+
+yes03:1 instruction one instruction
+7 instruction ele3
+7 ele3:0 instruction
+1 instruction list instruction
+3 start01
+
+
+
+
+yes04:1 instruction one
+instruction
+1 instruction one
+instruction2
+7 instruction ele4_1
+7 instruction2 ele4_2
+7 ele4_1:0 ele4_1/1 
+7 ele4_2:0 ele4_2/1
+1 ele4_1/1 list ele4_1/1
+1 ele4_2/1 list ele4_2/1
+4 ele4_1/1:0 ele4_2/1:0 yes04/1
+1 instruction three instruction
+3 start01
+
+yes04/1:1 instruction2 one instruction2
+7 instruction2 ele4_3
+7 ele4_3:0 instruction
+1 instruction list instruction
+3 start01
+
+
+
+
+
+yes05:1 instruction one
+instruction
+1 instruction one
+instruction2
+7 instruction ele5_1
+7 instruction2 ele5_2
+7 ele5_1:0 ele5_1/1 
+7 ele5_2:0 ele5_2/1
+1 ele5_1/1 list ele5_1/1
+1 ele5_2/1 list ele5_2/1
+5 ele5_1/1:0 ele5_2/1:0 yes05/1
+1 instruction three instruction
+3 start01
+
+yes05/1:1 instruction2 one instruction2
+7 instruction2 ele5_3
+7 ele5_3:0 instruction
+1 instruction list instruction
+3 start01
+
+
+
+
+
+yes07:1 instruction one
+instruction
+1 instruction one
+instruction2
+7 instruction ele7_1
+7 instruction2 ele7_2
+7 ele7_1:0 ele7_1/1 
+7 ele7_2:0 ele7_2/1
+1 ele7_1/1 list ele7_1/1
+1 ele7_2/1 list ele7_2/1
+7 ele7_1/1:0 ele7_2/1:0
+1 instruction two instruction
+3 start01
+
+
+
+
+yes09:3 halt0
+
+
+
+instruction:1
+instruction2:0
+list:0
+halt0:9
+zero:0
+one:1
+two:2
+three:3
+four:4
+five:5
+six:6
+seven:7
+eight:8
+nine:9
+0
+first:
