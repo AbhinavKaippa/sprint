@@ -1,0 +1,23 @@
+3 5 
+first_element_location:100 
+n:5
+
+7 first_element_location fel
+cnd1:5 n term halt
+7 num1 fel:0
+add1:1 fel one fel
+1 num1 num2 fibonacci
+7 num2 num1
+7 fibonacci num2
+1 term one term
+3 cnd1
+
+
+
+one:1
+two:2
+fibonacci:0
+num1:0
+num2:1
+term:1
+halt:9
